@@ -1,0 +1,29 @@
+.card{
+    border: 1px solid #000;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #666;
+    border-radius: 8px;
+    transition: all 1s ease-in-out;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 0;
+}
